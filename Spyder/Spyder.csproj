@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpyderCore\SpyderCore.csproj">
+      <Project>{be81485e-d229-4c12-a7b1-9f92a1a76bac}</Project>
+      <Name>SpyderCore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

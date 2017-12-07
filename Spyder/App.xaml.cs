@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
+using SpyderCore;
 using System.Windows;
 
 namespace Spyder
@@ -13,5 +14,6 @@ namespace Spyder
     /// </summary>
     public partial class App : Application
     {
+        SpyderCre
     }
 }
